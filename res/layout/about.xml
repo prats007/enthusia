@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/stadium">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+     <TextView 
+    android:id="@+id/heading"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:textColor="#FFFFFF"
+    android:textSize="35dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enthusia'13"/>
+     <TextView 
+ android:id="@+id/lineh"
+ android:layout_width="fill_parent"
+ android:layout_height="2dp"
+ android:background="#FFFFFF"
+ android:layout_margin="5dp"
+ android:layout_below="@+id/heading"
+  ></TextView>
+    
+     <Button 
+    android:id="@+id/committee"
+    android:layout_below="@+id/lineh"
+    android:text="Committee"
+    android:background="@drawable/custom_back"
+    android:textColor="#FFFFFF"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="MyClick"/>
+     <Button 
+    android:id="@+id/dh"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/lineh"
+    android:text="Dept. Heads"
+    android:background="@drawable/custom_back"
+    android:textColor="#FFFFFF"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="MyClick"/>
+<Button 
+    android:id="@+id/contact"
+    android:layout_below="@+id/lineh"
+     android:layout_width="wrap_content"
+  android:background="@drawable/custom_back"
+    android:textColor="#FFFFFF"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:text="Contact Us"
+    android:onClick="MyClick"/>
+
+<Button 
+    android:id="@+id/anthem"
+    android:layout_below="@+id/committee"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:text="Enthu Anthem"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/custom_back"
+    android:textColor="#FFFFFF"
+    android:gravity="center"
+    android:onClick="MyClick"/>
+<Button 
+    android:id="@+id/launch"
+    android:layout_below="@+id/committee"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:text="Launch Video"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/custom_back"
+    android:textColor="#FFFFFF"
+    android:gravity="center"
+    android:onClick="MyClick"/>
+
+<TextView 
+ android:id="@+id/line"
+ android:layout_width="fill_parent"
+ android:layout_height="2dp"
+ android:background="#FFFFFF"
+  android:layout_margin="5dp"
+ android:layout_below="@+id/anthem"
+  ></TextView>
+<TextView 
+    android:id="@+id/rate"
+    android:layout_alignParentLeft="true"
+    
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:layout_marginTop="10dp"
+    
+    android:layout_below="@+id/line"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Find the app helpful, rate us with your feedback"/>
+
+<Button
+    android:id="@+id/play_link"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/custom_back"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:layout_below="@+id/rate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Click here"
+    android:onClick="MyClick"
+    android:clickable="True"/>
+
+<Button
+    android:id="@+id/dev_link"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/custom_back"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:layout_below="@+id/rate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="About Dev."
+    android:onClick="MyClick"
+    android:clickable="True"/>
+
+<TextView 
+ android:id="@+id/line2"
+ android:layout_width="fill_parent"
+ android:layout_height="2dp"
+ android:background="#FFFFFF"
+ android:layout_margin="5dp"
+ android:layout_below="@+id/play_link"
+  ></TextView>
+    <TextView 
+    android:id="@+id/info"
+    android:layout_alignParentLeft="true"
+    android:gravity="center_horizontal"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:layout_margin="20dp"
+    android:layout_below="@+id/line2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enthusia is the sports festival of VJTI, and one of the largest intercollegiate sports festivals of Mumbai. Enthusia is the only intercollegiate sports festival amongst engineering colleges in Mumbai.We at Enthusia believe that like every child has the right to study,to educate himself, similarly he too should have the right to play and grow outside the classroom.We wish to nurture a sports culture which enables the youth to come out on the streets and play the game he loves so dearly without being apprehensive about choosing it as his carrier. We wish to educate the society that sports is a social glue that provides an opportunity for transmitting basic values imperative in overall development of every individual where elements like hard work, team spirit, sacrifice and respect have groomed naturally. Sports build and have contributed to racial and social integration, even to the development of lingo, as spots terms and expressions slide into everyday usage. This is true around the world where soccer and cricket clubs, and the rituals that goes with the understanding of passion, binds itself to other groups around the world. Maybe that is why, there are more members in FIFA federations than in the United Nations."/>    
+   
+
+</RelativeLayout>
+</ScrollView>

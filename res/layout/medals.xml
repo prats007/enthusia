@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/stadium">
+<TableLayout
+    android:id="@+id/tl"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+ <TableRow>
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Teams"
+android:textSize="25dp"
+android:paddingRight="120dp"
+/>
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="G"
+android:textSize="25dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="S"
+android:paddingRight="10dp"
+android:textSize="25dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="25dp"
+android:layout_height="wrap_content"
+android:text="B"
+/>
+
+    
+ </TableRow>
+ <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow android:paddingTop="10dp">
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="One"
+android:id="@+id/teamone"
+android:textColor="#FFFFFF"
+android:background="#303030"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/>
+    
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+         android:id="@+id/oneg"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+          
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+         android:id="@+id/ones"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+         android:id="@+id/oneb"
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:layout_height="wrap_content"
+android:text="0"
+/>
+
+    
+ </TableRow>
+  <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+          <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Two"
+android:id="@+id/teamtwo"
+android:textColor="#FFFFFF"
+android:background="#303030"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/>
+     
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/twog"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/twos"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:id="@+id/twob"
+android:layout_height="wrap_content"
+android:text="0"
+/>
+
+    
+ </TableRow>
+ 
+    <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Three"
+android:id="@+id/teamthree"
+android:textColor="#000000"
+android:background="#7EC0EE"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/>
+      
+    
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/threeg"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/threes"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/threeb"
+/>
+
+    
+ </TableRow>
+  
+  
+   <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Four"
+android:id="@+id/teamfour"
+android:textColor="#FFFFFF"
+android:background="#8B4513"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/>
+  
+  
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/fourg"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/fours"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/fourb"
+/>
+
+    
+ </TableRow>
+  <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+        <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Five"
+android:id="@+id/teamfive"
+android:textColor="#000000"
+android:background="#DD7500"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/>
+
+     
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/fiveg"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/fives"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/fiveb"
+/>
+
+    
+ </TableRow>
+ 
+    <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+        <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Six"
+android:id="@+id/teamsix"
+android:textColor="#FFFFFF"
+android:background="#800000"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/>
+        <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/sixg"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/sixs"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:id="@+id/sixb"
+android:layout_height="wrap_content"
+android:text="0"
+/>
+
+    
+ </TableRow>
+  
+   <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Seven"
+android:id="@+id/teamseven"
+android:background="#EEEE00"
+android:textSize="20dp"
+android:textColor="#000000"
+android:paddingRight="120dp"
+/>
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/seveng"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/sevens"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/sevenb"
+/>
+
+    
+ </TableRow>
+  <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Eight"
+android:id="@+id/teameight"
+android:background="#000080"
+android:textColor="#FFFFFF"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/> 
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/eightg"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/eights"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/eightb"
+/>
+
+    
+ </TableRow>
+ 
+    <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+       <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Nine"
+android:id="@+id/teamnine"
+android:textSize="20dp"
+android:textColor="#000000"
+android:background="#008000"
+android:paddingRight="120dp"
+/>
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/nineg"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/nines"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:id="@+id/nineb"
+android:layout_height="wrap_content"
+android:text="0"
+/>
+
+    
+ </TableRow>
+  <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Ten"
+android:id="@+id/teamten"
+android:background="#5E2D79"
+android:textColor="#FFFFFF"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/>
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/teng"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/tens"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:id="@+id/tenb"
+android:layout_height="wrap_content"
+android:text="0"
+/>
+
+    
+ </TableRow>
+  <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+  <TableRow>
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Eleven"
+android:id="@+id/teameleven"
+android:background="#EE0000"
+android:textColor="#000000"
+android:textSize="20dp"
+android:paddingRight="120dp"
+/> 
+     <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/eleveng"
+android:textSize="20dp"
+android:paddingRight="10dp"
+
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="0"
+android:id="@+id/elevens"
+android:paddingRight="10dp"
+android:textSize="20dp"
+/>
+      <TextView
+    android:id="@+id/verticalline"
+    android:layout_width="2dp"
+    android:layout_height="match_parent"
+    android:background="#2000BB"
+   android:paddingRight="3dp"
+    />
+     <TextView
+android:layout_width="wrap_content"
+android:textSize="20dp"
+android:id="@+id/elevenb"
+android:layout_height="wrap_content"
+android:text="0"
+/>
+
+    
+ </TableRow>
+   
+   <TableRow ><TextView
+    android:id="@+id/verticalline"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#2000BB"
+    android:layout_span="7"
+    /></TableRow>
+</TableLayout>
+</ScrollView>

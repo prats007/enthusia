@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/stadium">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+     <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:text="Department Heads"
+		android:gravity="center"
+		android:textColor="#FFFFFF"
+		android:textSize="35dp"/>
+      <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    <TextView
+        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="MECHANICAL"
+		android:textColor="#FFFFFF"
+		android:textSize="30dp"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Samay Shah (9987231289)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Madhura Joshi (9503358403)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+     <TextView
+        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="CIVIL"
+		android:textSize="30dp"/>
+          <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+     
+    <TextView 
+        android:id="@+id/Civilboy"
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Mit Gala (8080545790)"/>
+    <TextView 
+        android:id="@+id/civilgirl"
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Prateeksha Kale (8956174415)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+     <TextView
+        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="ELECTRICAL"
+		android:textSize="30dp"/>
+          <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+     
+    <TextView 
+
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Kiran Nair (8097564110)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Monika Harkal (9423149567)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+		 <TextView
+        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="PRODUCTION"
+		android:textSize="30dp"/>
+		      <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+		 
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Bhushan Rane (8275487304)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+    	android:layout_height="wrap_content"
+		android:text="Priyanka Waditke (9552770158)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="TEXTILE"
+		android:textSize="30dp"/>
+          <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+     
+    <TextView 
+
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Pranav Pathak (9404488502)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Jhanvi Bhatt (9967305987)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+    <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="ELECTRONICS"
+		android:textSize="30dp"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Malhar Garud (9594587713)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Pooja Patil (8976320468)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="COMPUTERS"
+		android:textSize="30dp"/>
+          <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+     
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Swapnil Borse (7588930328)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Roshani Gavad (9273736715)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="I.T."
+		android:textSize="30dp"/>
+          <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+     
+    <TextView 
+       android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Chinmay Karanjkar (8983242306)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Vaijyanti Ambre (8956972164)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="E.X.T.C."
+		android:textSize="30dp"/>
+          <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+     
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Nikhil Dharane (9619698991)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Rucha Sawarkar (7588749212)"/>
+         <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+    
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+		android:text="CHEMSA"
+		
+		android:textSize="30dp"/>
+          <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="1dp"/>
+     
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Roshan Dakare(9423309841)"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="15dp"
+		android:text="Tejashree Warange (9930398316)"/>
+
+</LinearLayout>
+</ScrollView>

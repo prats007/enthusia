@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadium" >
+    
+<TextView
+        android:id="@+id/arch_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Archery"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/arch_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/arch_head"
+  >
+ </TextView>
+<TextView
+        android:id="@+id/arch_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Archery is a target sport that requires great powers of concentration and technique.Using a bow and arrow, the aim is to shoot the target with points awarded for accuracy. It is a sport that requires a surprising amount of strength and stamina. Modern arrows can fly at more than 240 kph. So come and learn the most ancient art of Indian mythology."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/arch_line">
+    </TextView>
+    </RelativeLayout>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadium" >
+    
+<TextView
+        android:id="@+id/gym_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Gymnastics"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/gym_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/gym_head"
+  >
+ </TextView>
+<TextView
+        android:id="@+id/gym_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Gymnastics is a sport involving the performance of exercises requiring physical strength, flexibility, agility, coordination, and balance It typically involves the women's events of uneven bars, balance beam and floor exercise. Men's events are floor exercise, pommel horse, still rings, and parallel bars. Be a part of this exercise regime evolved from ancient Greek mythology , that included skills for mounting and dismountinga horse."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/gym_line">
+    </TextView>
+    </RelativeLayout>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadium" >
+    
+<TextView
+        android:id="@+id/mall_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Mallakhamb"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/mall_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/mall_head"
+  >
+ </TextView>
+<TextView
+        android:id="@+id/mall_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Malkhamb is a traditional Indian sport in which a gymnast performs feats and poses in concert with a vertical wooden pole or rope. It is a sport that combines various exercises that improve flexibility, strength, coordination, agility along with neuromuscular development, It improves the concentration, flexibility, strength, coordination, helps enhancing immunity power, and to fight the stress levels in an organized and better ways.This game is a mother discipline which builds an ideal physical body structure."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/mall_line">
+    </TextView>
+    </RelativeLayout>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadium" >
+    
+<TextView
+        android:id="@+id/rif_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Rifle-shooting"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/rif_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/rif_head"
+  >
+ </TextView>
+<TextView
+        android:id="@+id/rif_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Shooting is a target sport that covers a number of different types of events for men and women including: Rifle, Pistol, Trap, Skeet and Running Target. It is a competitive sport involving tests of proficiency (accuracy and speed and concentration) "
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/rif_line">
+    </TextView>
+    </RelativeLayout>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadium" >
+    
+<TextView
+        android:id="@+id/judo_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Judo"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/judo_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/judo_head"
+  >
+ </TextView>
+<TextView
+        android:id="@+id/judo_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="It is a modern martial art, combat.  Its most prominent feature is its competitive element, where the object is to either throw or takedown an opponent to the ground, immobilize or otherwise subdue an opponent with a grappling maneuver, or force an opponent to submit by joint locking or by executing a strangle hold or choke."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/judo_line">
+    </TextView>
+    </RelativeLayout>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadium" >
+    
+<TextView
+        android:id="@+id/adv_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Adventure Trip"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/adv_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/adv_head"
+  >
+ </TextView>
+<TextView
+        android:id="@+id/adv_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Adventure travel is a type of tourism, involving exploration or travel to remote, exotic and possibly hostile areas."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/adv_line">
+    </TextView>
+    </RelativeLayout>
+</ViewFlipper>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:id="@+id/widget74"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/background"
+>
+
+<RelativeLayout
+android:id="@+id/home"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+ <TextView
+        android:id="@+id/fixtures_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFFFF"
+        android:text="Fixtures"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        ></TextView>
+<TextView 
+ android:id="@+id/line_title"
+ android:layout_width="fill_parent"
+ android:layout_height="1dp"
+ android:background="#FFFFFF"
+ android:layout_below="@+id/fixtures_title" >
+ </TextView>
+
+  <TextView
+        android:id="@+id/basketball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fixtures_title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:drawableTop="@drawable/basketball"
+        android:textColor="#FFFFFF"
+        android:text="BasketBall"
+        android:onClick="MyClick"
+        android:textStyle="bold"
+        android:clickable="true">
+        
+    </TextView>
+    <TextView
+        android:id="@+id/football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/basketball"
+		android:layout_below="@+id/fixtures_title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:drawableTop="@drawable/football"
+        android:textStyle="bold"
+        android:text="Football"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>    
+    
+    <TextView
+        android:id="@+id/cricket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="15dp"
+       android:layout_below="@+id/fixtures_title"
+        android:drawableTop="@drawable/cricket"
+        android:text="Cricket"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>    
+    
+     <TextView
+        android:id="@+id/tt"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+		android:layout_below="@+id/basketball"
+        android:layout_marginLeft="60dp"
+        android:drawableTop="@drawable/tt"
+        android:text="Table Tennis"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>    
+     <TextView
+        android:id="@+id/volleyball"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+		android:layout_toRightOf="@+id/tt"
+		android:layout_below="@+id/football"
+        android:layout_marginLeft="60dp"
+        android:drawableTop="@drawable/volleyball"
+        android:text="Volleyball"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>    
+    
+      <TextView
+        android:id="@+id/tennis"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tt"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="20dp"
+        android:drawableTop="@drawable/tennis"
+        android:text="Tennis"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>    
+    <TextView
+        android:id="@+id/badminton"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/tt"
+		android:drawableTop="@drawable/badminton"
+		android:layout_toRightOf="@+id/tennis"
+        android:text="Badminton"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>    
+    
+	<TextView
+        android:id="@+id/chess"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tt"
+		android:drawableTop="@drawable/chess"
+		android:textColor="#FFFFFF"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="15dp"
+        android:text="Chess"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+    
+
+	<TextView
+	    
+        android:id="@+id/carrom"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/tennis"
+		android:drawableTop="@drawable/carrom"
+		android:text="Carrom"
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+    <TextView
+        android:id="@+id/throwball"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="65dp"
+        android:layout_below="@+id/badminton"
+		android:drawableTop="@drawable/throwball"
+		android:layout_toRightOf="@+id/carrom"
+        android:text="ThrowBall"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+    <TextView
+        android:id="@+id/athletics"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/carrom"
+        android:layout_marginLeft="15dp"
+		android:drawableTop="@drawable/athletics"
+		android:text="Athletics"
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+    <TextView
+        android:id="@+id/swimming"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/carrom"
+		android:drawableTop="@drawable/swimming"
+		android:layout_marginTop="30dp"
+        android:layout_marginLeft="65dp"
+		android:layout_toRightOf="@+id/athletics"
+		android:text="Swimming"
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+    <TextView
+        android:id="@+id/kabaddi"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/carrom"
+		android:drawableTop="@drawable/kabaddi"
+		android:textColor="#FFFFFF"
+		android:layout_marginTop="30dp"
+        android:layout_marginRight="3dp"
+        android:layout_alignParentRight="true"
+		android:text="Kabaddi"
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+     <TextView
+        android:id="@+id/box_cric"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/athletics"
+        android:textColor="#FFFFFF"
+		android:drawableTop="@drawable/cricket"
+		android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70dp"
+        android:text="Box Cricket"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+	<TextView
+        android:id="@+id/khokho"
+        android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="65dp"
+        android:layout_below="@+id/athletics"
+		android:drawableTop="@drawable/khokho"
+		android:layout_toRightOf="@+id/box_cric"
+        android:text="Kho-Kho"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+
+<TextView
+        android:id="@+id/rink"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/box_cric"
+        android:layout_marginLeft="15dp"
+		android:drawableTop="@drawable/football"
+		android:text="Rink Football"
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+
+<TextView
+        android:id="@+id/dodgeball"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/box_cric"
+		android:drawableTop="@drawable/dodgeball"
+		android:textColor="#FFFFFF"
+		android:layout_marginTop="30dp"
+        android:layout_marginRight="3dp"
+        android:layout_alignParentRight="true"
+		android:text="Dodgeball"
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </TextView>   
+
+</RelativeLayout>
+</ScrollView>

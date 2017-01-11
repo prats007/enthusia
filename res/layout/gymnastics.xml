@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+android:id="@+id/widget74"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/stadium"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+<TextView
+        android:id="@+id/gym_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Gymnastics"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/gym_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/gym_head"
+  >
+ </TextView>
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gymnastic"
+        android:layout_below="@+id/gym_line"
+        android:layout_marginTop="20dp"
+        android:id="@+id/gym_image"
+        android:layout_centerHorizontal="true">
+  </ImageView>
+ 
+ 
+<TextView
+        android:id="@+id/gym_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Gymnastics is a sport involving the performance of exercises requiring physical strength, flexibility, agility, coordination, and balance It typically involves the women's events of uneven bars, balance beam and floor exercise. Men's events are floor exercise, pommel horse, still rings, and parallel bars. Be a part of this exercise regime evolved from ancient Greek mythology , that included skills for mounting and dismountinga horse."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/gym_image">
+    </TextView>
+    </RelativeLayout>
+    </ScrollView>

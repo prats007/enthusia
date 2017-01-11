@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView
+android:id="@+id/widget74"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/stadium"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+<TextView
+        android:id="@+id/rif_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Rifle-shooting"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/rif_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/rif_head"
+  >
+ </TextView>
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rifle"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/rif_line"
+        android:id="@+id/rif_image"
+        android:layout_centerHorizontal="true">
+  </ImageView>
+<TextView
+        android:id="@+id/rif_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Shooting is a target sport that covers a number of different types of events for men and women including: Rifle, Pistol, Trap, Skeet and Running Target. It is a competitive sport involving tests of proficiency (accuracy and speed and concentration) "
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/rif_image">
+    </TextView>
+    </RelativeLayout>
+    </ScrollView>

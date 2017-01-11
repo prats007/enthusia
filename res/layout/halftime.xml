@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+	android:background="#FFFFFF"    
+     >
+      <ImageView
+          android:id="@+id/image"
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/halftime"
+         />
+    
+<ScrollView 
+    android:layout_below="@+id/image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+  <RelativeLayout
+      android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textSize="20dp"
+    android:text="Welcome to VJTI!!.When we say Enthusia is one of the biggest sports festival in India, it’s no exaggeration. Graced with some of the best sports facilities one could ask for,this annual festival is sure to set your heartbeat racing,and give you that adrenaline rush once again. Some of the most skilled and talented sportsmen will lock horns in front of hoards of fans spurring the players on to bring the best out of them. V.J.T.I. can boast of having a cricket ground,a football ground,basketball court,tennis clay courts (one of the few in India!),carrom and table tennis facilities,a badminton court,and lots more."/>
+         
+     <ImageView
+          android:id="@+id/contacts"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tv1"
+    android:layout_margin="0dp"
+    android:src="@drawable/contacts"
+         />
+     <TextView
+      android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textSize="20dp"
+    android:layout_below="@+id/contacts"
+     android:text="We're fortunate to be amongst some of the best young sportspersons around,with several players having played at the national and international levels too participating in Enthusia over the years. Held during the winter months,Enthusia contains an eclectic mix of the most exciting sports,sure to keep you on your toes when it’s there,and make you longing for more once it’s gone. No words can describe the euphoria and the craze that surrounds this time of the year. You'll see a completely different side of V.J.T.I. when the fest is on. A side we come to love, admire and live for. With improvements being shown every year,new sports like boxing and taekwondo are being introduced every year to keep things fresh,while regular workshops are conducted to help everyone hone their skills at the sports they love. Apart from all this,Enthusia has a softer side to it too. Every year,a lot of charity work is done to give something back to the society. For example,proceeds from last year's marathon were donated to PETA,one of the leading NGO's in the world. You can take it from me,ENTHUSIA12-13 is going to be bigger than ever!"
+         
+         />
+    
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

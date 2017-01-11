@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <HorizontalScrollView 
+    android:id="@+id/horiscroll"
+    android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:fillViewport="false"
+android:background="#008CD3"
+>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    
+          <ImageView
+        android:id="@+id/basketballtab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/basketball"
+        android:onClick="MyClick"
+        android:clickable="true">
+          </ImageView>   
+   
+    <ImageView
+        android:id="@+id/footballtab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/basketballtab"
+        android:src="@drawable/football"
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>    
+    
+    <ImageView
+        android:id="@+id/crickettab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cricket"
+        
+        android:onClick="MyClick"
+        android:clickable="true"
+        android:layout_toRightOf="@+id/footballtab">
+        
+    </ImageView>    
+    
+     <ImageView
+        android:id="@+id/tttab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/crickettab"
+        android:src="@drawable/tt"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>    
+     <ImageView
+        android:id="@+id/volleyballtab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/tttab"
+        android:src="@drawable/volleyball"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>    
+    
+      <ImageView
+        android:id="@+id/tennistab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/volleyballtab"
+        android:src="@drawable/tennis"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>    
+    <ImageView
+        android:id="@+id/badmintontab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:src="@drawable/badminton"
+		android:layout_toRightOf="@+id/tennistab"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>    
+    
+	<ImageView
+        android:id="@+id/chesstab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/badmintontab"
+		android:src="@drawable/chess"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>   
+    
+
+	<ImageView
+        android:id="@+id/carromtab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/chesstab"
+		android:src="@drawable/carrom"
+		
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>   
+    <ImageView
+        android:id="@+id/throwballtab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:src="@drawable/throwball"
+		android:layout_toRightOf="@+id/carromtab"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>   
+    <ImageView
+        android:id="@+id/athleticstab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/throwballtab"
+		android:src="@drawable/athletics"
+		
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>   
+    <ImageView
+        android:id="@+id/swimmingtab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:src="@drawable/swimming"
+		android:layout_toRightOf="@+id/athleticstab"
+		
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>   
+    <ImageView
+        android:id="@+id/kabadditab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/swimmingtab"
+		android:src="@drawable/kabaddi"
+		
+		android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>   
+  
+	<ImageView
+        android:id="@+id/khokhotab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:src="@drawable/khokho"
+		android:layout_toRightOf="@+id/box_crictab"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>
+            <ImageView
+        android:id="@+id/box_crictab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/kabadditab"
+		android:src="@drawable/cricket"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>   
+	<ImageView
+        android:id="@+id/rinktab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:src="@drawable/football"
+		android:layout_toRightOf="@+id/khokhotab"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>
+           
+<ImageView
+        android:id="@+id/dodgeballtab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rinktab"
+		android:src="@drawable/dodgeball"
+        
+        android:onClick="MyClick"
+        android:clickable="true">
+        
+    </ImageView>   
+          
+</RelativeLayout>
+</HorizontalScrollView>
+
+
+<ScrollView
+android:id="@+id/widget74"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/background"
+xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_below="@+id/horiscroll">
+
+<RelativeLayout
+android:id="@+id/matcheslayout"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+
+      
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

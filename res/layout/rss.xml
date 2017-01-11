@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<HorizontalScrollView 
+    android:id="@+id/horiscroll1"
+    android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:fillViewport="true"
+>
+
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/rsscricket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MyClick"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="2dp"
+        android:padding="8dp"
+        android:background="#0033CC"
+        android:text="Cricket" />
+      <Button
+          android:id="@+id/rsssoccer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rsscricket"
+        android:onClick="MyClick"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="2dp"
+        android:padding="8dp"
+        android:background="#0033CC"
+     	android:text="Soccer" />
+        <Button
+            android:id="@+id/rsstennis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rsssoccer"
+        android:onClick="MyClick"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="2dp"
+        android:padding="8dp"
+        android:background="#0033CC"
+        android:text="Tennis" />
+          <Button
+              android:id="@+id/rssbasketball"
+        android:layout_width="fill_parent"
+        android:layout_toRightOf="@+id/rsstennis" 
+        android:layout_height="wrap_content"
+        android:onClick="MyClick"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="2dp"
+        android:padding="8dp"
+        android:background="#0033CC"
+        android:text="Basketball" />
+          
+           <Button
+               android:id="@+id/rssgolf"
+        android:layout_width="fill_parent"
+        android:layout_toRightOf="@+id/rssbasketball" 
+        android:layout_height="wrap_content"
+        android:onClick="MyClick"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="2dp"
+        android:padding="8dp"
+        android:background="#0033CC"
+        android:text="Golf" />
+            <Button
+                android:id="@+id/rssF1"
+        android:layout_width="fill_parent"
+        android:layout_toRightOf="@+id/rssgolf" 
+        android:layout_height="wrap_content"
+        android:onClick="MyClick"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="2dp"
+        android:padding="8dp"
+        android:background="#0033CC"
+        android:text="F1" />
+           
+          
+</RelativeLayout>
+</HorizontalScrollView>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/stadium"
+     android:layout_below="@+id/horiscroll1"
+    >
+<LinearLayout
+   android:id="@+id/linlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    
+    >
+
+</LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

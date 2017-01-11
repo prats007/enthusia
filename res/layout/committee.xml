@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadium">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <TextView 
+      
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:gravity="center"
+   android:text="Core Commitee"
+   android:textColor="#FFFFFF"
+   android:textSize="30dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="General Secretary"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:textColor="#FFFFFF"
+   android:text="Pranay Bhabhera"
+   android:textSize="20dp"
+     />
+   <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Jt.General Secretary"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Milan Chhadwa"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF" 
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Sneha Patil"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Treasurer"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Manoj Musale"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Chief Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Kshitija Deshpande"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Pushkar Shirali"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Jenil Shah"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Girls Events Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Ankita Malve"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Shivani Patil"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Sneha Patel"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Events Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+    <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Yohan Doshi"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Piyush Morale"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Sponsorship Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Hargun Chadha"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Dhruven Shah"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Priyanka Kale"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+   <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Yohhan Rawani"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Amod Velingkar"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Neha Jagtap"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Krishna Dhobale"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Design and Website Team"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Nikhil Fating"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     /> 
+   <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Anmol Singh"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Gaurang Sadekar"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Adit Jamdar"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+      android:id="@+id/develop"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="App Development Team"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+   android:clickable="true"
+   android:onClick="MyClick"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Alok Joshi"
+   android:clickable="true"
+   android:id="@+id/develop"
+   android:onClick="MyClick"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Prathamesh Karve"
+   android:clickable="true"
+   android:id="@+id/develop"
+   android:onClick="MyClick"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Pratik Nalawade"
+   android:clickable="true"
+   android:id="@+id/develop"
+   android:onClick="MyClick"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+    <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Infrastructure Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Ashish Sayam"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+    <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Gurpreet Singh"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+     <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Prashant Ilga"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Tanmay Bhalerao"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Shantanu Karanth"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Kaushik Mehta"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Deep Vora"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+    <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Anuj Ghurka"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Sumedh Deshpande"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Varun Kumar"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Publicity Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+   <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Jitendra Jain"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Payal Chheda"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Allish Jain"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Mayank Agrawal"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Nishaad Patel"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Maharshi Singh"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Shrey Doshi"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Administrative Head"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Somesh Agrawal"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />  
+     <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Public Relations Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Akash Rakani"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Baiju Meswani"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Finance Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Nikhil Fating"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Half-time Co-ordinators"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Priyan Gada"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Akshay Hinduja"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Nisha Visweswaran"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Outdoor Sports Co-ordinator"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Subodh Dere"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Diploma Representatives"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Akshay Pardeshi"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Naba Ansari"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Masters Representative"
+   android:textColor="#FFFFFF"
+   android:background="#3366CC"
+   android:textSize="23dp"
+     />
+  <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:text="Prasad Chavan"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />  
+    
+</LinearLayout>
+</ScrollView>

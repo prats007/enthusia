@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+   <ImageView 
+   android:id="@+id/image"
+   android:layout_alignParentTop="true"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:src="@drawable/enthuback"/>
+    
+  <TextView 
+   android:id="@+id/heading"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_below="@+id/image" 
+   android:layout_centerHorizontal="true"
+   android:text="CONTACT US"
+   android:textColor="#0033CC"
+   android:textSize="30dp"
+     />
+  
+  
+  <TextView 
+   android:id="@+id/pranay"   
+   android:layout_marginTop="10dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="Pranay Bhabhera"
+   android:layout_below="@+id/heading"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/pranayno"   
+   android:layout_marginTop="10dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="9029157402"
+   android:layout_below="@+id/heading"
+   android:layout_alignParentRight="true"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/pranaypost"   
+   android:layout_marginLeft="40dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="[G.S]"
+   android:layout_below="@+id/pranay"
+   android:layout_alignParentLeft="true"
+   android:textColor="#FFFFFF"
+   android:textSize="15dp"
+     />
+  <TextView 
+      android:id="@+id/milan"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_below="@+id/pranaypost" 
+   android:text="Milan Chhadwa"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/milanno"   
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="8097042834"
+   android:layout_below="@+id/pranaypost"
+   android:layout_alignParentRight="true"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/milanpost"   
+   android:layout_marginLeft="30dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="[Jt. G.S]"
+   android:layout_below="@+id/milan"
+   android:layout_alignParentLeft="true"
+   android:textColor="#FFFFFF"
+   android:textSize="15dp"
+     />
+  <TextView 
+      android:id="@+id/sneha"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+    android:layout_below="@+id/milanpost"
+   android:textColor="#FFFFFF"
+   android:text="Sneha Patil"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/snehano"   
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="9820879995"
+   android:layout_below="@+id/milanpost"
+   android:layout_alignParentRight="true"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+ <TextView 
+   android:id="@+id/snehapost"   
+   android:layout_marginLeft="30dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="[Jt. G.S]"
+   android:layout_below="@+id/sneha"
+   android:layout_alignParentLeft="true"
+   android:textColor="#FFFFFF"
+   android:textSize="15dp"
+     />
+  <TextView 
+      android:id="@+id/manoj"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="Manoj Musale"
+   android:layout_below="@+id/snehapost"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/manojnno"   
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="9833958387"
+   android:layout_below="@+id/snehapost"
+   android:layout_alignParentRight="true"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/manojpost"   
+   android:layout_marginLeft="20dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="[Treasurer]"
+   android:layout_below="@+id/manoj"
+   android:layout_alignParentLeft="true"
+   android:textColor="#FFFFFF"
+   android:textSize="15dp"
+     />
+  <TextView 
+      android:id="@+id/kshitija"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="Kshitija Deshpande"
+   android:layout_below="@+id/manojpost"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+   <TextView 
+      
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="9987801888"
+   android:layout_below="@+id/manojpost"
+   android:layout_alignParentRight="true"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+   <TextView 
+   android:id="@+id/kshitijapost"   
+   android:layout_marginLeft="5dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="[C.C. - Publicity]"
+   android:layout_below="@+id/kshitija"
+   android:layout_alignParentLeft="true"
+   android:textColor="#FFFFFF"
+   android:textSize="15dp"
+     />
+  <TextView 
+      android:id="@+id/pushkar"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="Pushkar Shirali"
+   android:layout_below="@+id/kshitijapost"
+   android:textSize="20dp"
+   android:textColor="#FFFFFF"
+     />
+  <TextView 
+      
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="9920369608"
+   android:layout_below="@+id/kshitijapost"
+   android:layout_alignParentRight="true"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/pushkarpost"   
+   android:layout_marginLeft="5dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="[C.C. - Sponsorship]"
+   android:layout_below="@+id/pushkar"
+   android:layout_alignParentLeft="true"
+   android:textColor="#FFFFFF"
+   android:textSize="15dp"
+     />
+  <TextView 
+      android:id="@+id/jenil"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_below="@+id/pushkarpost" 
+   android:text="Jenil Shah"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+      
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="9870009557"
+   android:layout_below="@+id/pushkarpost"
+   android:layout_alignParentRight="true"
+   android:textColor="#FFFFFF"
+   android:textSize="20dp"
+     />
+  <TextView 
+   android:id="@+id/jenilpost"   
+   android:layout_marginLeft="5dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:text="[C.C. - Infrastructure]"
+   android:layout_below="@+id/jenil"
+   android:layout_alignParentLeft="true"
+   android:textColor="#FFFFFF"
+   android:textSize="15dp"
+     />
+ 
+
+</RelativeLayout>
+</ScrollView>

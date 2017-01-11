@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView
+android:id="@+id/widget74"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/stadium"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+<TextView
+        android:id="@+id/mall_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Mallakhamb"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/mall_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/mall_head"
+  >
+ </TextView>
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mallakhamb"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/mall_line"
+        android:id="@+id/mall_image"
+        android:layout_centerHorizontal="true">
+  </ImageView>
+ 
+<TextView
+        android:id="@+id/mall_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Malkhamb is a traditional Indian sport in which a gymnast performs feats and poses in concert with a vertical wooden pole or rope. It is a sport that combines various exercises that improve flexibility, strength, coordination, agility along with neuromuscular development, It improves the concentration, flexibility, strength, coordination, helps enhancing immunity power, and to fight the stress levels in an organized and better ways.This game is a mother discipline which builds an ideal physical body structure."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/mall_image">
+    </TextView>
+    </RelativeLayout>
+    </ScrollView>

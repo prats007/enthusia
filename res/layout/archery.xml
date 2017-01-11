@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:id="@+id/widget74"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/stadium"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<TextView
+        android:id="@+id/arch_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Archery"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/arch_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/arch_head"
+  >
+ </TextView>
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/archery"
+        android:layout_below="@+id/arch_line"
+        android:id="@+id/arch_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+  </ImageView>
+<TextView
+        android:id="@+id/arch_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Archery is a target sport that requires great powers of concentration and technique.Using a bow and arrow, the aim is to shoot the target with points awarded for accuracy. It is a sport that requires a surprising amount of strength and stamina. Modern arrows can fly at more than 240 kph. So come and learn the most ancient art of Indian mythology."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/arch_image">
+    </TextView>
+    </RelativeLayout>
+    </ScrollView>

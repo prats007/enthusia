@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView
+android:id="@+id/widget74"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/stadium"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+<TextView
+        android:id="@+id/judo_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Judo"
+        android:textSize="40dp" >
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/judo_line"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/judo_head"
+  >
+ </TextView>
+ <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/judo"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/judo_line"
+        android:id="@+id/judo_image"
+        android:layout_centerHorizontal="true">
+  </ImageView>
+ 
+<TextView
+        android:id="@+id/judo_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="It is a modern martial art, combat.  Its most prominent feature is its competitive element, where the object is to either throw or takedown an opponent to the ground, immobilize or otherwise subdue an opponent with a grappling maneuver, or force an opponent to submit by joint locking or by executing a strangle hold or choke."
+        android:textSize="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/judo_image">
+    </TextView>
+    </RelativeLayout>
+    </ScrollView>

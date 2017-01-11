@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/stadium"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+<TextView
+        android:id="@+id/attr_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="New Attractions"
+        android:textSize="40dp" >
+    </TextView>
+     <TextView 
+ android:id="@+id/attr_line0"
+ android:layout_width="fill_parent"
+ android:layout_height="4dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/attr_heading"
+  >
+ </TextView>
+  
+<TextView
+        android:id="@+id/attr1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Archery"
+        android:textSize="30dp"
+        android:layout_below="@+id/attr_line0"
+        android:layout_alignParentLeft="true" 
+        android:layout_marginTop="30sp"
+        android:clickable="true"
+        android:onClick="MyClick">
+    </TextView>
+    <TextView 
+ android:id="@+id/attr_line1"
+ android:layout_width="fill_parent"
+ android:layout_height="2dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/attr1"
+  >
+ </TextView>
+    <TextView
+        android:id="@+id/attr2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Gymnastics"
+        android:textSize="30dp"
+        android:layout_below="@+id/attr_line1"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:onClick="MyClick">
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/attr_line2"
+ android:layout_width="fill_parent"
+ android:layout_height="2dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/attr2"
+  >
+ </TextView>
+    <TextView
+        android:id="@+id/attr3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mallakhamb"
+        android:textSize="30dp"
+        android:layout_below="@+id/attr_line2"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:onClick="MyClick">
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/attr_line3"
+ android:layout_width="fill_parent"
+ android:layout_height="2dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/attr3"
+  >
+ </TextView>
+    <TextView
+        android:id="@+id/attr4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rifle-Shooting"
+        android:textSize="30dp"
+        android:layout_below="@+id/attr_line3"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:onClick="MyClick">
+    </TextView>
+    
+     <TextView 
+ android:id="@+id/attr_line4"
+ android:layout_width="fill_parent"
+ android:layout_height="2dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/attr4"
+  >
+ </TextView>
+    <TextView
+        android:id="@+id/attr5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Judo"
+        android:textSize="30dp"
+        android:layout_below="@+id/attr_line4"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:onClick="MyClick">
+    </TextView>
+     <TextView 
+ android:id="@+id/attr_line5"
+ android:layout_width="fill_parent"
+ android:layout_height="2dp"
+ android:background="#483D8B"
+ android:layout_below="@+id/attr5"
+  >
+ </TextView>
+    <TextView
+        android:id="@+id/attr6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Adventure Trip"
+        android:textSize="30dp"
+        android:layout_below="@+id/attr_line5"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:onClick="MyClick">
+    </TextView>
+</RelativeLayout>
+</ScrollView>

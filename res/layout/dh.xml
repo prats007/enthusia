@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/stadium">
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="#008CD3"
+		android:textSize="30dp"/>
+    <TextView
+        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="MECHANICAL"
+		android:textSize="30dp"/>
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="MECH Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="MECH Girl"/>
+     <TextView
+        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="Civil"
+		android:textSize="30dp"/>
+    <TextView 
+        android:id="@+id/Civilboy"
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="Civil Boy"/>
+    <TextView 
+        android:id="@+id/civilgirl"
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="civil Girl"/>
+     <TextView
+        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="Elecrical"
+		android:textSize="30dp"/>
+    <TextView 
+
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="trical Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="trical Girl"/>]
+		 <TextView
+        
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="PRODUCTION"
+		android:textSize="30dp"/>
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="prod Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="PROD Girl"/>
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="TEXTILE"
+		android:textSize="30dp"/>
+    <TextView 
+
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="TEXT Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="TEXT Girl"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="ELECTRONICS"
+		android:textSize="30dp"/>
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="TRONICS Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="TRONICS Girl"/>
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="COMPUTERS"
+		android:textSize="30dp"/>
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="COMPS Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="COMPS Girl"/>
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="I.T."
+		android:textSize="30dp"/>
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="IT Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="IT Girl"/>
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="E.X.T.C."
+		android:textSize="30dp"/>
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="EXTC Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="EXTC Girl"/>
+     <TextView
+
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="Chemsa"
+		android:textSize="30dp"/>
+    <TextView 
+        
+       
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="chemsa Boy"/>
+    <TextView 
+
+     
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:text="chemsa Girl"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/stadium">
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+      <TextView 
+       android:id="@+id/my_teams"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/heading"
+       android:text=" MY TEAMS "
+       android:layout_marginTop="5dp"
+       android:textSize="25dp"
+       android:textStyle="bold"
+       android:textColor="#FFFFFF"
+      android:background="@drawable/custom_back"
+       android:clickable="true"
+       android:onClick="MyClick"
+      
+       />
+      
+   <TextView 
+       android:id="@+id/schedule"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/my_teams"
+       android:text=" SCHEDULE "
+       android:layout_marginTop="50dp"       
+       android:textSize="25dp"
+       android:textStyle="bold"
+       android:textColor="#FFFFFF"
+      android:background="@drawable/custom_back"
+       android:clickable="true"
+       android:onClick="MyClick"
+      
+       />
+   <TextView 
+       android:id="@+id/results"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/schedule"
+       android:layout_marginTop="50dp"
+       android:layout_centerHorizontal="true"
+       android:text=" RESULTS "
+       android:textStyle="bold"
+       android:textSize="25dp"
+       android:onClick="MyClick"
+       android:textColor="#FFFFFF"
+       android:background="@drawable/custom_back"
+       android:clickable="true"
+       />
+   <TextView 
+       android:id="@+id/medals"
+       android:textStyle="bold"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/results"
+       android:layout_marginTop="50dp"
+       android:onClick="MyClick"
+       android:layout_centerHorizontal="true"
+       android:text=" MEDALS "
+       android:textSize="25dp"
+       android:textColor="#FFFFFF"
+       android:clickable="true"
+      android:background="@drawable/custom_back"
+       />
+     <TextView 
+       android:id="@+id/news"
+       android:textStyle="bold"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/medals"
+       android:layout_marginTop="50dp"
+       android:onClick="MyClick"
+       android:layout_centerHorizontal="true"
+       android:text=" NEWS "
+       android:textSize="25dp"
+       android:textColor="#FFFFFF"
+       android:clickable="true"
+      android:background="@drawable/custom_back"
+       />
+  
+       
+</RelativeLayout>   
+</ScrollView>

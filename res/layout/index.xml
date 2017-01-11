@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/flipper"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<include android:id="@+id/zero"  layout="@layout/home" />
+<include android:id="@+id/one"  layout="@layout/enthu_options" />
+<include android:id="@+id/one_one"  layout="@layout/activity_result" />
+<include android:id="@+id/one_two"  layout="@layout/main" />
+<include android:id="@+id/one_three"  layout="@layout/myresults" />
+<include android:id="@+id/one_four"  layout="@layout/medals" />
+<include android:id="@+id/one_five"  layout="@layout/news" />
+<include android:id="@+id/one_six"  layout="@layout/myteams" />
+
+<include android:id="@+id/two"  layout="@layout/rss"/>
+
+<include android:id="@+id/three"  layout="@layout/sponsors"/>
+
+<include android:id="@+id/four"  layout="@layout/attr_menu"/>
+<include android:id="@+id/four_one"  layout="@layout/archery"/>
+<include android:id="@+id/four_two"  layout="@layout/gymnastics"/>
+<include android:id="@+id/four_three"  layout="@layout/mallakhamb"/>
+<include android:id="@+id/four_four"  layout="@layout/rifle"/>
+<include android:id="@+id/four_five"  layout="@layout/judo"/>
+<include android:id="@+id/four_six"  layout="@layout/adventrip"/>
+
+<include android:id="@+id/five"  layout="@layout/about"/>
+<include android:id="@+id/five_one"  layout="@layout/committee"/>
+<include android:id="@+id/five_two"  layout="@layout/deptheads"/>
+<include android:id="@+id/five_three"  layout="@layout/contactus"/>
+<include android:id="@+id/five_four"  layout="@layout/develop"/> 
+
+
+</ViewFlipper>
